@@ -16,6 +16,8 @@
 		BA6A93BB29AB308F004C01BA /* SNSMediaSearcher_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93BA29AB308F004C01BA /* SNSMediaSearcher_iOSUITestsLaunchTests.swift */; };
 		BA6A93CF29AB3211004C01BA /* ViewModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93CE29AB3211004C01BA /* ViewModelObject.swift */; };
 		BA6A93D129AB3235004C01BA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93D029AB3235004C01BA /* HomeViewModel.swift */; };
+		BA6A93D529AB7B4D004C01BA /* TwitterAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93D429AB7B4D004C01BA /* TwitterAPIResponse.swift */; };
+		BA6A93D729AB7B5F004C01BA /* InstagramAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93D629AB7B5F004C01BA /* InstagramAPIResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BA6A93BA29AB308F004C01BA /* SNSMediaSearcher_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSMediaSearcher_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BA6A93CE29AB3211004C01BA /* ViewModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelObject.swift; sourceTree = "<group>"; };
 		BA6A93D029AB3235004C01BA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BA6A93D429AB7B4D004C01BA /* TwitterAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAPIResponse.swift; sourceTree = "<group>"; };
+		BA6A93D629AB7B5F004C01BA /* InstagramAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAPIResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				BA6A93C729AB30D9004C01BA /* Model */,
 				BA6A93C829AB30E1004C01BA /* View */,
 				BA6A93C929AB30E5004C01BA /* ViewModel */,
+				BA6A93D229AB7AAA004C01BA /* Protocol */,
 				BA6A93CD29AB317D004C01BA /* Components */,
 				BA6A93CC29AB3172004C01BA /* Extensions */,
 				BA6A93CA29AB3124004C01BA /* Supportings */,
@@ -140,7 +145,8 @@
 		BA6A93C729AB30D9004C01BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BA6A93CE29AB3211004C01BA /* ViewModelObject.swift */,
+				BA6A93D429AB7B4D004C01BA /* TwitterAPIResponse.swift */,
+				BA6A93D629AB7B5F004C01BA /* InstagramAPIResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +187,14 @@
 			children = (
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		BA6A93D229AB7AAA004C01BA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A93CE29AB3211004C01BA /* ViewModelObject.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +330,8 @@
 				BA6A93CF29AB3211004C01BA /* ViewModelObject.swift in Sources */,
 				BA6A939F29AB308D004C01BA /* HomeView.swift in Sources */,
 				BA6A939D29AB308D004C01BA /* SNSMediaSearcher_iOSApp.swift in Sources */,
+				BA6A93D529AB7B4D004C01BA /* TwitterAPIResponse.swift in Sources */,
+				BA6A93D729AB7B5F004C01BA /* InstagramAPIResponse.swift in Sources */,
 				BA6A93D129AB3235004C01BA /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
