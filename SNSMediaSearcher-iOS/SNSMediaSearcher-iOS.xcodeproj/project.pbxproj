@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6A939D29AB308D004C01BA /* SNSMediaSearcher_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A939C29AB308D004C01BA /* SNSMediaSearcher_iOSApp.swift */; };
+		BA6A939F29AB308D004C01BA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A939E29AB308D004C01BA /* HomeView.swift */; };
+		BA6A93A129AB308F004C01BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6A93A029AB308F004C01BA /* Assets.xcassets */; };
+		BA6A93A529AB308F004C01BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6A93A429AB308F004C01BA /* Preview Assets.xcassets */; };
+		BA6A93AF29AB308F004C01BA /* SNSMediaSearcher_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93AE29AB308F004C01BA /* SNSMediaSearcher_iOSTests.swift */; };
+		BA6A93B929AB308F004C01BA /* SNSMediaSearcher_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93B829AB308F004C01BA /* SNSMediaSearcher_iOSUITests.swift */; };
+		BA6A93BB29AB308F004C01BA /* SNSMediaSearcher_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93BA29AB308F004C01BA /* SNSMediaSearcher_iOSUITestsLaunchTests.swift */; };
+		BA6A93CF29AB3211004C01BA /* ViewModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93CE29AB3211004C01BA /* ViewModelObject.swift */; };
+		BA6A93D129AB3235004C01BA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A93D029AB3235004C01BA /* HomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6A93AB29AB308F004C01BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6A939129AB308D004C01BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6A939829AB308D004C01BA;
+			remoteInfo = "SNSMediaSearcher-iOS";
+		};
+		BA6A93B529AB308F004C01BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6A939129AB308D004C01BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6A939829AB308D004C01BA;
+			remoteInfo = "SNSMediaSearcher-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA6A939929AB308D004C01BA /* SNSMediaSearcher-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SNSMediaSearcher-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A939C29AB308D004C01BA /* SNSMediaSearcher_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSMediaSearcher_iOSApp.swift; sourceTree = "<group>"; };
+		BA6A939E29AB308D004C01BA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BA6A93A029AB308F004C01BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6A93A229AB308F004C01BA /* SNSMediaSearcher_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SNSMediaSearcher_iOS.entitlements; sourceTree = "<group>"; };
+		BA6A93A429AB308F004C01BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA6A93AA29AB308F004C01BA /* SNSMediaSearcher-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SNSMediaSearcher-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A93AE29AB308F004C01BA /* SNSMediaSearcher_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSMediaSearcher_iOSTests.swift; sourceTree = "<group>"; };
+		BA6A93B429AB308F004C01BA /* SNSMediaSearcher-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SNSMediaSearcher-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A93B829AB308F004C01BA /* SNSMediaSearcher_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSMediaSearcher_iOSUITests.swift; sourceTree = "<group>"; };
+		BA6A93BA29AB308F004C01BA /* SNSMediaSearcher_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSMediaSearcher_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA6A93CE29AB3211004C01BA /* ViewModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelObject.swift; sourceTree = "<group>"; };
+		BA6A93D029AB3235004C01BA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA6A939629AB308D004C01BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A93A729AB308F004C01BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A93B129AB308F004C01BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA6A939029AB308D004C01BA = {
+			isa = PBXGroup;
+			children = (
+				BA6A939B29AB308D004C01BA /* SNSMediaSearcher-iOS */,
+				BA6A93AD29AB308F004C01BA /* SNSMediaSearcher-iOSTests */,
+				BA6A93B729AB308F004C01BA /* SNSMediaSearcher-iOSUITests */,
+				BA6A939A29AB308D004C01BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6A939A29AB308D004C01BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A939929AB308D004C01BA /* SNSMediaSearcher-iOS.app */,
+				BA6A93AA29AB308F004C01BA /* SNSMediaSearcher-iOSTests.xctest */,
+				BA6A93B429AB308F004C01BA /* SNSMediaSearcher-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA6A939B29AB308D004C01BA /* SNSMediaSearcher-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A939C29AB308D004C01BA /* SNSMediaSearcher_iOSApp.swift */,
+				BA6A93C729AB30D9004C01BA /* Model */,
+				BA6A93C829AB30E1004C01BA /* View */,
+				BA6A93C929AB30E5004C01BA /* ViewModel */,
+				BA6A93CD29AB317D004C01BA /* Components */,
+				BA6A93CC29AB3172004C01BA /* Extensions */,
+				BA6A93CA29AB3124004C01BA /* Supportings */,
+				BA6A93A329AB308F004C01BA /* Preview Content */,
+			);
+			path = "SNSMediaSearcher-iOS";
+			sourceTree = "<group>";
+		};
+		BA6A93A329AB308F004C01BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A93A429AB308F004C01BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA6A93AD29AB308F004C01BA /* SNSMediaSearcher-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A93AE29AB308F004C01BA /* SNSMediaSearcher_iOSTests.swift */,
+			);
+			path = "SNSMediaSearcher-iOSTests";
+			sourceTree = "<group>";
+		};
+		BA6A93B729AB308F004C01BA /* SNSMediaSearcher-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A93B829AB308F004C01BA /* SNSMediaSearcher_iOSUITests.swift */,
+				BA6A93BA29AB308F004C01BA /* SNSMediaSearcher_iOSUITestsLaunchTests.swift */,
+			);
+			path = "SNSMediaSearcher-iOSUITests";
+			sourceTree = "<group>";
+		};
+		BA6A93C729AB30D9004C01BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A93CE29AB3211004C01BA /* ViewModelObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA6A93C829AB30E1004C01BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A939E29AB308D004C01BA /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA6A93C929AB30E5004C01BA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A93D029AB3235004C01BA /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA6A93CA29AB3124004C01BA /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A93A029AB308F004C01BA /* Assets.xcassets */,
+				BA6A93A229AB308F004C01BA /* SNSMediaSearcher_iOS.entitlements */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		BA6A93CC29AB3172004C01BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA6A93CD29AB317D004C01BA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6A939829AB308D004C01BA /* SNSMediaSearcher-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A93BE29AB308F004C01BA /* Build configuration list for PBXNativeTarget "SNSMediaSearcher-iOS" */;
+			buildPhases = (
+				BA6A939529AB308D004C01BA /* Sources */,
+				BA6A939629AB308D004C01BA /* Frameworks */,
+				BA6A939729AB308D004C01BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SNSMediaSearcher-iOS";
+			productName = "SNSMediaSearcher-iOS";
+			productReference = BA6A939929AB308D004C01BA /* SNSMediaSearcher-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA6A93A929AB308F004C01BA /* SNSMediaSearcher-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A93C129AB308F004C01BA /* Build configuration list for PBXNativeTarget "SNSMediaSearcher-iOSTests" */;
+			buildPhases = (
+				BA6A93A629AB308F004C01BA /* Sources */,
+				BA6A93A729AB308F004C01BA /* Frameworks */,
+				BA6A93A829AB308F004C01BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6A93AC29AB308F004C01BA /* PBXTargetDependency */,
+			);
+			name = "SNSMediaSearcher-iOSTests";
+			productName = "SNSMediaSearcher-iOSTests";
+			productReference = BA6A93AA29AB308F004C01BA /* SNSMediaSearcher-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6A93B329AB308F004C01BA /* SNSMediaSearcher-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A93C429AB308F004C01BA /* Build configuration list for PBXNativeTarget "SNSMediaSearcher-iOSUITests" */;
+			buildPhases = (
+				BA6A93B029AB308F004C01BA /* Sources */,
+				BA6A93B129AB308F004C01BA /* Frameworks */,
+				BA6A93B229AB308F004C01BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6A93B629AB308F004C01BA /* PBXTargetDependency */,
+			);
+			name = "SNSMediaSearcher-iOSUITests";
+			productName = "SNSMediaSearcher-iOSUITests";
+			productReference = BA6A93B429AB308F004C01BA /* SNSMediaSearcher-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA6A939129AB308D004C01BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BA6A939829AB308D004C01BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BA6A93A929AB308F004C01BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BA6A939829AB308D004C01BA;
+					};
+					BA6A93B329AB308F004C01BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BA6A939829AB308D004C01BA;
+					};
+				};
+			};
+			buildConfigurationList = BA6A939429AB308D004C01BA /* Build configuration list for PBXProject "SNSMediaSearcher-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA6A939029AB308D004C01BA;
+			productRefGroup = BA6A939A29AB308D004C01BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6A939829AB308D004C01BA /* SNSMediaSearcher-iOS */,
+				BA6A93A929AB308F004C01BA /* SNSMediaSearcher-iOSTests */,
+				BA6A93B329AB308F004C01BA /* SNSMediaSearcher-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA6A939729AB308D004C01BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A93A529AB308F004C01BA /* Preview Assets.xcassets in Resources */,
+				BA6A93A129AB308F004C01BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A93A829AB308F004C01BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A93B229AB308F004C01BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6A939529AB308D004C01BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A93CF29AB3211004C01BA /* ViewModelObject.swift in Sources */,
+				BA6A939F29AB308D004C01BA /* HomeView.swift in Sources */,
+				BA6A939D29AB308D004C01BA /* SNSMediaSearcher_iOSApp.swift in Sources */,
+				BA6A93D129AB3235004C01BA /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A93A629AB308F004C01BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A93AF29AB308F004C01BA /* SNSMediaSearcher_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A93B029AB308F004C01BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A93B929AB308F004C01BA /* SNSMediaSearcher_iOSUITests.swift in Sources */,
+				BA6A93BB29AB308F004C01BA /* SNSMediaSearcher_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6A93AC29AB308F004C01BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6A939829AB308D004C01BA /* SNSMediaSearcher-iOS */;
+			targetProxy = BA6A93AB29AB308F004C01BA /* PBXContainerItemProxy */;
+		};
+		BA6A93B629AB308F004C01BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6A939829AB308D004C01BA /* SNSMediaSearcher-iOS */;
+			targetProxy = BA6A93B529AB308F004C01BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA6A93BC29AB308F004C01BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA6A93BD29AB308F004C01BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BA6A93BF29AB308F004C01BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SNSMediaSearcher-iOS/SNSMediaSearcher_iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SNSMediaSearcher-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 25PNL545V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dev.shogo.s.SNSMediaSearcher-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA6A93C029AB308F004C01BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SNSMediaSearcher-iOS/SNSMediaSearcher_iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SNSMediaSearcher-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 25PNL545V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dev.shogo.s.SNSMediaSearcher-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA6A93C229AB308F004C01BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PNL545V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dev.shogo.s.SNSMediaSearcher-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSMediaSearcher-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SNSMediaSearcher-iOS";
+			};
+			name = Debug;
+		};
+		BA6A93C329AB308F004C01BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PNL545V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dev.shogo.s.SNSMediaSearcher-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSMediaSearcher-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SNSMediaSearcher-iOS";
+			};
+			name = Release;
+		};
+		BA6A93C529AB308F004C01BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PNL545V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dev.shogo.s.SNSMediaSearcher-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SNSMediaSearcher-iOS";
+			};
+			name = Debug;
+		};
+		BA6A93C629AB308F004C01BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PNL545V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dev.shogo.s.SNSMediaSearcher-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SNSMediaSearcher-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA6A939429AB308D004C01BA /* Build configuration list for PBXProject "SNSMediaSearcher-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A93BC29AB308F004C01BA /* Debug */,
+				BA6A93BD29AB308F004C01BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A93BE29AB308F004C01BA /* Build configuration list for PBXNativeTarget "SNSMediaSearcher-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A93BF29AB308F004C01BA /* Debug */,
+				BA6A93C029AB308F004C01BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A93C129AB308F004C01BA /* Build configuration list for PBXNativeTarget "SNSMediaSearcher-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A93C229AB308F004C01BA /* Debug */,
+				BA6A93C329AB308F004C01BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A93C429AB308F004C01BA /* Build configuration list for PBXNativeTarget "SNSMediaSearcher-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A93C529AB308F004C01BA /* Debug */,
+				BA6A93C629AB308F004C01BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA6A939129AB308D004C01BA /* Project object */;
+}
