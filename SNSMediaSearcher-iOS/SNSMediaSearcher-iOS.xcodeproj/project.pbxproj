@@ -79,7 +79,8 @@
 		BA6A939029AB308D004C01BA = {
 			isa = PBXGroup;
 			children = (
-				BA6A939B29AB308D004C01BA /* SNSMediaSearcher-iOS */,
+				BA6A93A229AB308F004C01BA /* SNSMediaSearcher_iOS.entitlements */,
+				BA6A939B29AB308D004C01BA /* Source */,
 				BA6A93AD29AB308F004C01BA /* SNSMediaSearcher-iOSTests */,
 				BA6A93B729AB308F004C01BA /* SNSMediaSearcher-iOSUITests */,
 				BA6A939A29AB308D004C01BA /* Products */,
@@ -96,7 +97,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA6A939B29AB308D004C01BA /* SNSMediaSearcher-iOS */ = {
+		BA6A939B29AB308D004C01BA /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				BA6A939C29AB308D004C01BA /* SNSMediaSearcher_iOSApp.swift */,
@@ -108,7 +109,7 @@
 				BA6A93CA29AB3124004C01BA /* Supportings */,
 				BA6A93A329AB308F004C01BA /* Preview Content */,
 			);
-			path = "SNSMediaSearcher-iOS";
+			path = Source;
 			sourceTree = "<group>";
 		};
 		BA6A93A329AB308F004C01BA /* Preview Content */ = {
@@ -164,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				BA6A93A029AB308F004C01BA /* Assets.xcassets */,
-				BA6A93A229AB308F004C01BA /* SNSMediaSearcher_iOS.entitlements */,
 			);
 			path = Supportings;
 			sourceTree = "<group>";
